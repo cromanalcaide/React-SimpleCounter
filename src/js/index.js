@@ -14,3 +14,12 @@ setInterval(()=>{
 ReactDOM.render(<SecondsCounter seconds={counter}/>, document.querySelector("#app"));
 counter++;}
 , 1000)
+
+
+
+// Cuenta regresiva es así:
+//let counter = 10000;
+// setInterval(()=>{
+// ReactDOM.render(<SecondsCounter seconds={counter}/>, document.querySelector("#app"));
+// counter--;}
+// , 1000)

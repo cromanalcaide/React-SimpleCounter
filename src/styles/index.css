@@ -1,20 +1,28 @@
+#app {
+display: flex;
+justify-content: center;
+}
+
 .counterFrame {
-    display: flex;
+    display: inline;
+    align-items: center;
     background-color: black;
     border-radius: 10px;
-    width: 1150px;
+    min-height: 100px;
+    height: fit-content;
+    overflow: 1%;
     border: 1px solid white;
-    padding: 50px;
-    margin: 20px;
-    box-sizing: content-box
+    padding: 70px;
+    margin: auto;
 }
 
 .counterDigit {
+    display: inline-block;
     color: white;
     font-size: 200;
     border-radius: 10px;
     border: 1px solid white;
+    margin: auto;
     padding: 50px;
     margin: 20px;
-
 }
